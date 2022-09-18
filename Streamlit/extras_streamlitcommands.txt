@@ -1,0 +1,17 @@
+st.title('Analysis')
+
+st.header('Stonks')
+
+st.subheader('Data')
+
+st.write('...')
+
+st.sidebar.title("Chart Options")
+
+chart_data = pd.DataFrame(
+     #np.random.randn(30, 4),
+     #columns=['a', 'b', 'c','d'])
+
+st.line_chart(chart_data)
+
+st.image('https://roflzoo.com/pics/042010/monkey-business-big.jpg')

@@ -1,0 +1,49 @@
+.news_headline {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding: 20px;
+    opacity: 10;
+    font-size: 18px;
+  justify-content: center;
+   margin-right:auto; 
+   float:none; display: inline-block; display: table-cell, vertical-align and column
+}
+
+.news_author {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin-left:50em; 
+    margin-right:auto;
+    padding-bottom: 40px;
+     
+}
+.news_discription{
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    font-family: Comic-Sans;
+    justify-content: center;
+}
+.news_url {
+    border-radius: 10px;
+    padding: 5px;
+    width:  250px;
+    height:auto;
+    margin-left:70em; 
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.news_link {
+     
+    border-radius: 10px;
+    padding: 5px;
+    width:  250px;
+    height:auto;
+    margin-left:60em; 
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column{
+    column-rule: solid;
+    color: black;
+}

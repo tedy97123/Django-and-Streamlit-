@@ -1,0 +1,116 @@
+.stocklist_wrapper{
+    background-color: rgb(138, 83, 28);
+    border:solid rgb(173, 147, 147);
+    margin-left:50em;
+    margin-right:50em;
+     
+}
+
+.stocklist_main{
+    flex: 4;
+    border:solid rgb(75, 17, 17) 2px;
+}
+.column {
+  float: left;
+  width: 25%;
+   
+}
+.left, .right {
+  width: 25%;
+}
+.resize {
+  width: 300px;
+  height: 125px;
+   
+}
+.stocklist_row_div{
+    flex:4;
+    float:left;
+    font-weight:bold;
+    font-size:12px;
+    padding:2.5em;
+}
+ 
+.stocklist_row_divChart{
+  margin-left: 50em;
+  border:solid rgb(49, 2, 2)
+}
+
+.stocklist_Quote{
+  flex-direction: row;
+  border:solid rgb(49, 2, 2);
+  font-size: 25px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stocklist_Trade{
+  flex-direction: row;
+  border:solid rgb(49, 2, 2);
+  font-size: 25px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stocklist_Quotes{
+  border:solid rgb(49, 2, 2);
+  padding: 40px;
+  background-color: rgb(73, 70, 75);
+  margin-right: 110em; 
+}
+.stocklist_Trades{
+  border:solid rgb(49, 2, 2);
+  padding: 40px;
+  background-color: rgb(94, 89, 94); 
+   margin-right: 110em;
+}
+ 
+ 
+
+.flex_inner_col{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex_inner_row{
+    display:flex;
+    flex-direction:row
+}
+
+ /* Style the tab */
+ .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #6b1919;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  } 
+  .icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: rgb(255, 255, 255); /* Dark-grey background */
+  }

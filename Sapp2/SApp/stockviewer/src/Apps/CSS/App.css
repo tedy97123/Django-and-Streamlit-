@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #040707;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cryptolist{
+  overflow: hidden;
+  display:flex;
+  justify-content:space-between;
+  padding: 14px;
+  background-color:#4a4747;opacity: 1;
+
+}
+
+.cryptoitem button{
+padding:.5em;
+background-color:#4a4747;
+color:rgb(123, 173, 200); opacity:1;
+border-radius:.5em;
+border:none;
+align-items:center;
+font-weight:bold;
+font-Family:'Kanit'
+}
+.cryptoitem button:hover{
+  border:solid white 2px;
+  cursor:pointer
+}
+.hidden{
+  display:none;
+}
